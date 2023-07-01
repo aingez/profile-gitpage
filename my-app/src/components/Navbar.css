@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000bd;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 10px;
+  padding-left: 30px;
+  
+  /* Add the following properties to make the list horizontal */
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  /* Optionally add some styles for the list items */
+  margin-right: 30px;
+  float: left;
+}
+
+.navbar li :hover {
+  /* Optionally add some styles for the hover */
+  text-decoration: none;
+  color: hsl(44, 80%, 48%);
+}

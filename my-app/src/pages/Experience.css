@@ -1,0 +1,52 @@
+.experience-container {
+    background-color: #000;
+    height: 110%;
+    padding-top: 125px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    /* margin: 125px 200px 10px 200px; */
+  }
+  
+.experience-outer{
+    background-color: #000;
+}
+
+  .exp-title {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .exp-p {
+    margin-bottom: 20px;
+    color: rgb(142, 142, 147);
+  }
+  
+  .exp-h2 {
+    color: #d8f949;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+    .exp-h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+  .exp-line {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  .exp-line-small{
+    border: 0.5px solid #2c2c2c;
+    margin-bottom: 10px;
+  }
+  
+  .exp-p:last-child {
+    margin-bottom: 0;
+  }
+  
