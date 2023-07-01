@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/profile-gitpage" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="*" element={<h2>Not Found</h2>} />
