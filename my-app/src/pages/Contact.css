@@ -70,3 +70,20 @@ a:hover {
 .email-link {
   word-break: break-all;
 }
+
+@media (max-width: 400px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-details {
+    text-align: left;
+  }
+
+  /* change profile picture to square */
+  .profile-image {
+    border-radius: 0;
+  }
+  
+}

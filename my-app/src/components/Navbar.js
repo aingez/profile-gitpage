@@ -16,6 +16,9 @@ function Navbar() {
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>
+                    <li>
+                        <Link to="/cert">Cert&License</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

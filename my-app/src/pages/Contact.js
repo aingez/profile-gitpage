@@ -13,9 +13,11 @@ const ContactPage = () => {
   return (
     <div className="container"> 
         <div className="profile-section">
+          
           <div className="profile-image-container">
             <img src={profileImage} alt="Profile" className="profile-image" />
           </div>
+
           <div className="profile-details">
             <h1 className='contact-title'>Contact</h1>
             <ul>

@@ -27,3 +27,27 @@
   text-decoration: none;
   color: hsl(44, 80%, 48%);
 }
+
+@media (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    float: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .navbar li:last-child {
+    border-bottom: none;
+  }
+
+  .navbar li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
