@@ -81,9 +81,8 @@ a:hover {
     text-align: left;
   }
 
-  /* change profile picture to square */
   .profile-image {
     border-radius: 0;
   }
-  
-}
+
+} 
