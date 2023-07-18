@@ -1,0 +1,11 @@
+.cert {
+    height: 100vh;
+    background-color: #000000;
+}
+
+.cert-block {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #ffffff;
+}
