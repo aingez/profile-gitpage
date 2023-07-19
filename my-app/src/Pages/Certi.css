@@ -5,7 +5,56 @@
 
 .cert-block {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 15%;
     color: #ffffff;
+}
+
+.cert-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cert-subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    color: #a6ce22;
+}
+.cert-details {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: rgb(172, 172, 181);
+}
+
+@media screen and (max-width: 870px){
+
+    .cert-block {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        right: 15%;
+        color: #ffffff;
+    }
+    .cert-title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .cert-subtitle {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+
+        color: #a6ce22;
+    }
+    .cert-details {
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        color: rgb(172, 172, 181);
+    }
 }

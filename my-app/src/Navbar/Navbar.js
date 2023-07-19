@@ -41,18 +41,23 @@ export default function Navbar() {
         </li>
 
         <li className="items">
-          <Link to="/contact">Contact</Link>
-        </li>
-
-        <li className="items">
           <Link to="/cert">Cert&License</Link>
         </li>
 
         <li className="items">
           <Link to="/me">whoami</Link>
         </li>
+
+        <li className="items">
+          <Link to="/resume">resume</Link>
+        </li>
+
+        <li className="items">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
-      )}
+      )
+    }
 
       <button onClick={toggleNav} className="btn">BTN</button>
     </nav>

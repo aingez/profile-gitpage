@@ -1,0 +1,11 @@
+.me {
+    height: 100vh;
+    background-color: #000000;
+}
+
+.me-block {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: #ffffff;
+}

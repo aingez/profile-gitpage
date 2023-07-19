@@ -6,6 +6,7 @@ import Contact from './Pages/Contact';
 import Certi from './Pages/Certi';
 import Exp from './Pages/Exp';
 import Me from './Pages/whoami';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cert" element={<Certi />} />
           <Route path="/exp" element={<Exp />} />
           <Route path="/me" element={<Me />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
 
