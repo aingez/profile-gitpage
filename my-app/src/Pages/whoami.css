@@ -9,3 +9,30 @@
     left: 15%;
     color: #ffffff;
 }
+
+.me-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.me-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    /* underline */
+    text-decoration: underline;
+}
+
+.me-details {
+    font-size: 1.5rem;
+    padding-right: 50px;
+
+    color: #9f9f9f;
+}
+
+.me-details li {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
